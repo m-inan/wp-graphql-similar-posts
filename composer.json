@@ -1,0 +1,20 @@
+{
+    "name": "m-inan/wp-graphql-next-previous-post",
+    "description": "WPGraphql Post type for next and previous field",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammet INAN",
+            "email": "muhammet@tilpark.com",
+            "role": "developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WPGraphQL\\Extensions\\SimilarPosts\\": "src/"
+        }
+    },
+    "require": {}
+}
